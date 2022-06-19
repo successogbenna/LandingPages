@@ -1,0 +1,418 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+header {
+    background-image: url('/images/bg-hero-mobile.svg');
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100vh;
+    /* background: hsla(209, 87%, 83%, 0.383); */
+
+}
+
+h2 {
+    font-weight: 600;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.nav_btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.111);
+}
+
+.landing_page {
+    margin-top: 50px;
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px
+}
+
+.landing_header {
+    font-size: 20px;
+    text-align: center;
+}
+
+.landing_text {
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.brand_img {
+    width: 80px
+}
+
+.landing_btn {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background: hsl(322, 100%, 66%);
+    border: transparent;
+    cursor: pointer;
+    color: white;
+
+}
+
+.landing_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    /* margin: auto */
+}
+
+/* .landing_text,.landing_image{
+    width: 40%
+} */
+.mockups {
+    width: 300px
+}
+
+section {
+    padding: 30px;
+    /* margin-bottom: 100px; */
+}
+
+.first_div,
+.second_div,
+.third_div {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding: 15px 30px;
+    margin-top: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.042)
+}
+
+.second_div {
+    flex-direction: column
+}
+
+.first_div_text,
+.second_div_text,
+.third_div_text {
+    text-align: center;
+}
+
+.first_div_text p,
+.second_div_text p,
+.third_div_text p {
+    font-size: 13px;
+    text-align: center;
+}
+
+.first_div_header,
+.second_div_header,
+.third_div_header {
+    font-size: 20px;
+}
+
+.together,
+.illustration,
+.users {
+    width: 200px
+}
+
+footer {
+    position: relative;
+    background: hsla(192, 100%, 9%, 0.83);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0px 5px
+}
+
+.footer_brand {
+    background: white;
+    width: 320px;
+    position: absolute;
+    top: -80px;
+    left: 30px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+}
+
+.footer_brand_header {
+    font-size: 16px;
+    position: absolute;
+    top: -70px;
+    left: 60px;
+    color: black
+}
+
+.footer_brand_button {
+    position: absolute;
+    top: -20px;
+    left: 60px
+}
+
+.footer_brand_btn {
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    background: hsl(322, 100%, 66%);
+    border: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+.logo_footer {
+    position: absolute;
+    top: 140px;
+    left: 20px
+}
+
+.logo_img {
+    width: 150px
+}
+
+.footer_start {
+    height: 40vh;
+    margin:0px
+}
+
+ul {
+    list-style: none;
+}
+
+.email_phone {
+    margin-top: 10px;
+}
+
+.arrow {
+    display: flex;
+    align-items: baseline;
+    /* flex-direction: column; */
+}
+
+.arrow p {
+    font-size: 12px;
+    margin-left: 20px;
+    padding-right: 8px;
+
+}
+
+span {
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.contact ul {
+    margin: 0px
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+/* .social_copy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+.social_media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_media a {
+    text-decoration: none;
+}
+
+.social_media .fa {
+    color: white;
+    border: 1px solid white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.social_media .fa:hover {
+    color: hsl(322, 100%, 66%);
+
+}
+
+.copyright {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+
+@media screen and (min-width: 400px) {
+    header {
+        background: url('/images/bg-hero-desktop.svg');
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 100px;
+    }
+
+    .brand_img {
+        width: 100px
+    }
+
+    .nav_btn {
+        width: 200px;
+        height: 40px;
+        border-radius: 20px;
+    }
+
+    .landing_page {
+        flex-direction: row;
+        margin-top: -10px;
+    }
+
+    .landing {
+        width: 40%
+    }
+
+    .landing_text {
+        font-size: 18px;
+    }
+
+    .landing_image {
+        width: 50%
+    }
+
+    .landing_header {
+        font-size: 40px;
+    }
+
+    .mockups {
+        width: 800px;
+        text-align: center;
+    }
+
+    .first_div,
+    .second_div,
+    .third_div {
+        flex-direction: row;
+        height: 70vh;
+    }
+    section{
+        padding: 50px 100px
+    }
+    .together,
+    .illustration,
+    .users {
+        width: 600px;
+    }
+
+    .first_div_header,
+    .second_div_header,
+    .third_div_header {
+        font-size: 50px;
+    }
+
+    .first_p,
+    .second_p,
+    .third_p {
+        font-size: 16px !important;
+    }
+    .first_div_text,.second_div_text,.third_div_text{
+        width: 40%
+    }
+    .first_div_image,.second_div_image,.third_div_image{
+        width: 50%;
+        text-align: center;
+    }
+    footer {
+        height: 60vh;
+        margin-top: 200px;
+    }
+
+    .footer_brand {
+        left: 30%;
+        width: 700px;
+        height: 200px;
+        top: -120px;
+        border: 1px solid rgba(0, 0, 0, 0.115);
+    }
+
+    .footer_brand_header {
+        left: 35%;
+        font-size: 30px;
+        top: -110px
+    }
+
+    .footer_brand_button {
+        left: 38%;
+    }
+
+    .footer_brand_btn {
+        height: 50px;
+        width: 400px;
+        border-radius: 50px;
+    }
+
+    .logo_footer {
+        top: 110px
+    }
+
+    .footer_start {
+        display: flex;
+        width: 100%;
+        padding-top: 150px;
+        /* margin-top: 100px */
+    }
+
+    .email_phone {
+        margin-top: -20px;
+        flex: 1.5
+    }
+      .arrow,.phone{
+        margin-bottom: 20px;
+      }
+    .social_copy {
+        flex: 1.5;
+    }
+    .social_media{
+        margin-bottom: 70px;
+    }
+
+    .contact {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+    }
+
+}
