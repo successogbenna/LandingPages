@@ -75,6 +75,9 @@ h2 {
     color: white;
 
 }
+.landing_btn:hover{
+    opacity:0.6
+}
 
 .landing_page {
     display: flex;
