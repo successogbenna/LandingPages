@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-image: url('/images/bg-hero-mobile.svg');
+    background-image: url('bg-hero-mobile.svg');
     background-repeat: repeat;
     background-size: cover;
     height: 100vh;
@@ -276,7 +276,7 @@ span {
 
 @media screen and (min-width: 400px) {
     header {
-        background: url('/images/bg-hero-desktop.svg');
+        background: url('bg-hero-desktop.svg');
     }
 
     .navbar {
