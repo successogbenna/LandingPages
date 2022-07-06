@@ -1,3 +1,5 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+@import url('https://fonts.google.com/specimen/Open+Sans');
 body {
     padding: 0;
     margin: 0;
@@ -9,6 +11,7 @@ body {
 header {
     background-image: url(bg-hero-mobile.svg);
     background-repeat: repeat;
+    background-color: hsl(193, 100%, 96%);
     background-size: cover;
     height: 100vh;
     /* background: hsla(209, 87%, 83%, 0.383); */
