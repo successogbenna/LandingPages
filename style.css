@@ -188,6 +188,9 @@ footer {
     cursor: pointer;
     color: white;
 }
+.footer_brand_btn:hover {
+   opacity: 0.6;
+}
 
 .logo_footer {
     position: absolute;
